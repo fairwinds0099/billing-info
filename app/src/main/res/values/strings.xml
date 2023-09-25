@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="states">
+        <item>California</item>
+        <item>Ohio</item>
+        <item>Virginia</item>
+    </string-array>
+</resources>

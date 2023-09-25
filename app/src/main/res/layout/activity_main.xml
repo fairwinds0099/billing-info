@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/commonFeatures"
+            android:text="BILLIING INFORMATION" />
+
+        <CheckBox
+            android:id="@+id/checkboxStudent"
+            style="@style/commonFeatures"
+            android:text="Student" />
+
+        <CheckBox
+            android:id="@+id/checkBoxFaculty"
+            style="@style/commonFeatures"
+            android:text="Faculty" />
+
+        <TextView
+            android:id="@+id/checBoxStatusText"
+            style="@style/commonFeatures"
+            android:text="selection"/>
+
+        <EditText
+            android:id="@+id/nameId"
+            style="@style/commonFeatures"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/streetId"
+            style="@style/commonFeatures"
+            android:hint="Street Name" />
+
+        <EditText
+            android:id="@+id/cityId"
+            style="@style/commonFeatures"
+            android:hint="City" />
+
+        <EditText
+            style="@style/commonFeatures"
+            android:hint="Zip Code" />
+
+        <Spinner
+            android:id="@+id/statesId"
+            style="@style/commonFeatures"
+            android:hint="State" />
+
+        <Button
+            style="@style/commonFeatures"
+            android:id="@+id/submitButtonId"/>
+
+        <TextView
+            android:id="@+id/summaryID"
+            style="@style/commonFeatures"/>
+
+    </LinearLayout>
+</ScrollView>
